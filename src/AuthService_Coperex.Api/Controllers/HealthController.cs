@@ -13,7 +13,7 @@ public class HealthController : ControllerBase
         {
             status = "Healthy",
             timestamp = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss.fffZ"),
-            service = "InterferDB Authentication Service"
+            service = "CoperexDB Authentication Service"
         };
 
         return Ok(response);
